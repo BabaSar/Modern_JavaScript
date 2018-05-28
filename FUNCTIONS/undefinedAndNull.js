@@ -15,3 +15,13 @@ console.log(age) //prints undefined
 if (age === undefined) {
     console.log('The variable age is undefined')
 }
+
+
+/******************************************/
+
+//undefined for function arguments
+let someFunction = function (someArgument) {
+    console.log(someArgument)
+}
+
+someFunction() //no argument passed in, so undefined gets printed
