@@ -1,3 +1,5 @@
-let name = 'Baba'
+let firstName = 'Baba'
+let lastName = "Sariffodeen"
 
-console.log(name)
+//template literal
+console.log(`${firstName} ${lastName}`)
