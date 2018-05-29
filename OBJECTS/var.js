@@ -18,13 +18,13 @@ console.log(age) //prints undefined as expected
 
 //But check this out
 console.log(name) //this still prints undefined due to hoisting!
-var name 
+var name //because this gets hoisted above
 
 //hoisting takes the undefined portion of a variable declaration to the top
     //This does not happen with let or const
 
 console.log(country) //still prints out undefined due to hoisting! which takes declaration to the top but not the assignment part, so its undefined at that stage
-var country = 'Singapore'
+var country = 'Singapore' //because var country gets hoisted up
 
 /**************************************/
 
